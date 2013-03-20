@@ -38,7 +38,7 @@ public class FrontLine extends Activity {
 			public void onFinish() {
 		 		if(isNetworkAvailable())
 		 		{		 	
-		 			Intent intent=new Intent(FrontLine.this, ListActivity.class);
+		 			Intent intent=new Intent(FrontLine.this, GreenwayMap.class);
 		 			startActivity(intent);
 		 		}
 		 		else
