@@ -35,6 +35,9 @@
     	<activity
         android:name=".GreenwayMap"
         />
+    	<activity
+        android:name=".Greenway_Description"
+        />
     </application>
 
 </manifest>

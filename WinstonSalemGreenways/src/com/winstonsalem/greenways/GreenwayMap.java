@@ -1,40 +1,15 @@
 package com.winstonsalem.greenways;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.HashMap;
+import java.io.Serializable;
 import java.util.List;
-import java.util.Locale;
 import java.util.concurrent.ExecutionException;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
-
 import android.graphics.drawable.Drawable;
-import android.location.Address;
 import android.location.Criteria;
-import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
-
 import com.winstonsalem.greenways.HelloItemizedOverlay;
 import com.winstonsalem.greenways.ParseXMLTask;
 import com.winstonsalem.greenways.R;
@@ -44,22 +19,19 @@ import com.google.android.maps.GeoPoint;
 import com.google.android.maps.MapActivity;
 import com.google.android.maps.MapController;
 import com.google.android.maps.MapView;
-import com.google.android.maps.MapView.LayoutParams;
 import com.google.android.maps.MyLocationOverlay;
 import com.google.android.maps.Overlay;
 import com.google.android.maps.OverlayItem;
 
-import android.app.Activity;
 import android.content.Context;
-import android.util.Log;
 import android.view.Menu;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
-public class GreenwayMap extends MapActivity{
+public class GreenwayMap extends MapActivity implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private static String str = "http://earthquake.usgs.gov/eqcenter/catalogs/1day-M2.5.xml";
 	//private static String str = "C://Users/komal/Desktop/earthquake.xml";
 	MapController mc;
@@ -68,11 +40,10 @@ public class GreenwayMap extends MapActivity{
 	double lattitudeValue;
 	double longitudeValue;
 	
-	HashMap<String, Greenway> location;
+	//public static HashMap<String, Greenway> location;
 	String provider;
 	MyLocationOverlay myLocationOverlay;
 	private MapView mapView;
-	private LocationManager locManager;
 	
 	private final LocationListener locationListener = new LocationListener() {
     	public void onLocationChanged(Location location) {
@@ -88,8 +59,7 @@ public class GreenwayMap extends MapActivity{
     	public void onStatusChanged(String provider, int status, Bundle extras){ }
     };
     
-    @SuppressWarnings("deprecation")
-	@Override
+    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.greenway_map);
@@ -101,10 +71,10 @@ public class GreenwayMap extends MapActivity{
         mapView.displayZoomControls(true);
         mc = mapView.getController();
         
-        location = new HashMap<String, Greenway>();
+        //location = new HashMap<String, Greenway>();
         ParseXMLTask parseXMLTask = new ParseXMLTask();
         try {
-			location = parseXMLTask.execute(str).get();
+			Greenway.greenways = parseXMLTask.execute(str).get();
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -112,6 +82,9 @@ public class GreenwayMap extends MapActivity{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+        
+        //ParseXMLTask parseXMLTask = new ParseXMLTask();
+        //parseXMLTask.execute(str);
         
         mapView.invalidate();
         
@@ -123,9 +96,9 @@ public class GreenwayMap extends MapActivity{
         mapView.getOverlays().add(myLocationOverlay);
         myLocationOverlay.enableMyLocation();
         
-        for(String key : location.keySet()) {
-        	String[] l = location.get(key).getLocation();
-        	String title = location.get(key).getTitle();
+        for(String key : Greenway.greenways.keySet()) {
+        	String[] l = Greenway.greenways.get(key).getLocation();
+        	String title = Greenway.greenways.get(key).getTitle();
 			lattitudeValue = Double.parseDouble(l[0]); //converting string lattitude value to double
 	        longitudeValue=Double.parseDouble(l[1]); //converting string longitude value to double
 			
@@ -135,6 +108,7 @@ public class GreenwayMap extends MapActivity{
 	        itemizedoverlay.addOverlay(overlayitem);
 	        mapOverlays.add(itemizedoverlay);
         }
+        
         
         LocationManager locationManager;
         String context = Context.LOCATION_SERVICE;
@@ -154,7 +128,7 @@ public class GreenwayMap extends MapActivity{
     }
 		
 
-    private void updateWithNewLocation(Location location) {
+    public void updateWithNewLocation(Location location) {
     	
     	if (location != null) {
     		

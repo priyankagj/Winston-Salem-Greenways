@@ -7,8 +7,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.HashMap;
 
@@ -23,13 +21,11 @@ import org.xml.sax.SAXException;
 
 import android.location.Location;
 import android.os.AsyncTask;
-import android.os.Handler;
 import android.util.Log;
 
 class ParseXMLTask extends AsyncTask<String, Void, HashMap<String, Greenway>> {
     
     private static final String TAG = "EARTHQUAKE";
-	private Handler handler = new Handler();
 	String[] location;
 	HashMap<String, Greenway> greenways;
 	
@@ -69,16 +65,14 @@ class ParseXMLTask extends AsyncTask<String, Void, HashMap<String, Greenway>> {
 				Element title = (Element)entry.getElementsByTagName("title").item(0);
 				Element g = (Element)entry.getElementsByTagName("georss:point").item(0);
 				Element when = (Element)entry.getElementsByTagName("updated").item(0);
-				Element link = (Element)entry.getElementsByTagName("link").item(0);
+				entry.getElementsByTagName("link").item(0);
 				String details = title.getFirstChild().getNodeValue();
-				String hostname = "http://earthquake.usgs.gov";
-				String linkString = hostname + link.getAttribute("href");
 				String point = g.getFirstChild().getNodeValue();
 				String dt = when.getFirstChild().getNodeValue();
 				SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss'Z'");
-				Date qdate = new GregorianCalendar(0,0,0).getTime();
+				new GregorianCalendar(0,0,0).getTime();
 				try {
-					qdate = sdf.parse(dt);
+					sdf.parse(dt);
 				} catch (java.text.ParseException e) {
 					Log.d(TAG, "Date parsing exception.", e);
 				}
@@ -89,7 +83,7 @@ class ParseXMLTask extends AsyncTask<String, Void, HashMap<String, Greenway>> {
 				l.setLongitude(Double.parseDouble(location[1]));
 				String magnitudeString = details.split(" ")[1];
 				int end = magnitudeString.length()-1;
-				double magnitude = Double.parseDouble(magnitudeString.substring(0, end));
+				Double.parseDouble(magnitudeString.substring(0, end));
 				details = details.split(",")[1].trim();
 				
 				Greenway g1 = new Greenway();
@@ -111,15 +105,15 @@ class ParseXMLTask extends AsyncTask<String, Void, HashMap<String, Greenway>> {
 				finally {
 				}
 				
-		 return greenways;
+        Greenway.greenways = greenways;
+		 return Greenway.greenways;
     }
 
     @Override
     protected void onPostExecute(HashMap<String, Greenway> result) {
     	if(result!= null)
         {
-            HashMap<String, Greenway> category = new HashMap<String, Greenway>();
-            category = (HashMap<String, Greenway>) result;
+            new HashMap<String, Greenway>();
         }        
     }   
 }
