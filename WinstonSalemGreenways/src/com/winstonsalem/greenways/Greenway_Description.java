@@ -62,8 +62,8 @@ public class Greenway_Description extends Activity implements Serializable{
         location = Greenway.greenways;
         String[] l = location.get(str).getLocation();
     	//String title = location.get("Southern Alaska").getTitle();
-		final double lattitudeValue = Double.parseDouble(l[0]); //converting string lattitude value to double
-        final double longitudeValue=Double.parseDouble(l[1]); //converting string longitude value to double
+		final double lattitudeValue = Double.parseDouble(l[1]); //converting string lattitude value to double
+        final double longitudeValue=Double.parseDouble(l[0]); //converting string longitude value to double
         
         LocationManager locationManager;
         String context = Context.LOCATION_SERVICE;
