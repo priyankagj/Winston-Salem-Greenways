@@ -24,6 +24,7 @@ import com.google.android.maps.Overlay;
 import com.google.android.maps.OverlayItem;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.Menu;
 import android.widget.Toast;
 
@@ -72,7 +73,7 @@ public class GreenwayMap extends MapActivity implements Serializable{
         mc = mapView.getController();
         
         //location = new HashMap<String, Greenway>();
-        ParseXMLTask parseXMLTask = new ParseXMLTask();
+        KMLParser parseXMLTask = new KMLParser(this);
         try {
 			Greenway.greenways = parseXMLTask.execute(str).get();
 		} catch (InterruptedException e) {
@@ -95,13 +96,15 @@ public class GreenwayMap extends MapActivity implements Serializable{
         myLocationOverlay = new MyLocationOverlay(this, mapView);
         mapView.getOverlays().add(myLocationOverlay);
         myLocationOverlay.enableMyLocation();
-        
+       // System.out.println("title=" +Greenway.greenways.get("Strollway").getTitle());
         for(String key : Greenway.greenways.keySet()) {
+        	
         	String[] l = Greenway.greenways.get(key).getLocation();
         	String title = Greenway.greenways.get(key).getTitle();
-			lattitudeValue = Double.parseDouble(l[0]); //converting string lattitude value to double
-	        longitudeValue=Double.parseDouble(l[1]); //converting string longitude value to double
-			
+        	
+        	lattitudeValue = Double.parseDouble(l[1]); //converting string lattitude value to double
+	        longitudeValue=Double.parseDouble(l[0]); //converting string longitude value to double
+	       // System.out.println("point=" +lattitudeValue);
 	        GeoPoint point1 = new GeoPoint((int) (lattitudeValue * 1E6), (int) (longitudeValue * 1E6));
 	        OverlayItem overlayitem = new OverlayItem(point1, title, "");
 	
@@ -145,7 +148,7 @@ public class GreenwayMap extends MapActivity implements Serializable{
     		
     		mc.setCenter(point);
             mc.zoomToSpan(point.getLatitudeE6(),point.getLongitudeE6());
-            mc.setZoom(17);
+            mc.setZoom(12);
          
 	    	
     	} else {

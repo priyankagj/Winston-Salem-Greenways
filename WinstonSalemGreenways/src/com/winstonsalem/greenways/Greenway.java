@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.winstonsalem.greenways;
 
 
@@ -71,4 +70,4 @@ public class Greenway{
 		            }
 		        };*/
 }
->>>>>>> 06b29805e5318bfcdb184dccb7a0261ac2873509
+
