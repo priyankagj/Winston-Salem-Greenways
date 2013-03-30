@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Greenway Access Points</name>
+  <description><![CDATA[]]></description>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+  	<Greenway>Salem Lake trail</Greenway>
+    <name>Linville 2</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-80.158936,36.106754,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+	<Greenway>Salem Lake trail</Greenway>
+    <name>Linville 1</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>-80.159225,36.105133,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Salem Lake trail</Greenway>
+    <name>New GSO Road</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-80.185188,36.101067,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Salem Lake trail</Greenway>
+    <name>Salem Lake Road</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-80.193413,36.092625,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Salem Lake trail</Greenway>
+    <name>Reynolds Park Road</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>-80.210556,36.088749,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Waughtown Connector</Greenway>
+    <name>Peachtree Street Waughtown</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-80.211052,36.086094,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Salem Creek Trail</Greenway>
+    <name>Peachtree Street Salem Creek</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-80.211182,36.086998,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Salem Creek Trail</Greenway>
+    <name>Diggs Blvd</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>-80.221199,36.086510,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Salem Creek Trail</Greenway>
+    <name>WSSU</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-80.225174,36.085854,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+	<Greenway>Salem Creek Trail</Greenway>
+    <name>Liberia St</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-80.236649,36.084641,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Salem Creek Trail</Greenway>
+    <name>Tennis Courts</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-80.240471,36.081310,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Strollway</Greenway>
+    <name>Strollway South</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-80.241798,36.082352,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Strollway</Greenway>
+    <name>SE Gateway</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>-80.241608,36.080479,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Salem Creek Trail</Greenway>
+    <name>Broad St</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-80.244377,36.080059,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Salem Creek Trail</Greenway>
+    <name>Wash Park Lane</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-80.251991,36.077164,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Salem Creek Trail</Greenway>
+    <name>Wash Park</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-80.250000,36.076038,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Salem Creek Trail</Greenway>
+    <name>Marketplace Mall</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-80.254074,36.072186,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Strollway</Greenway>
+    <name>Academy St</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>-80.243904,36.087379,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Strollway</Greenway>
+    <name>Brookstown Ave</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-80.244675,36.090897,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Strollway</Greenway>
+    <name>First St</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-80.245689,36.094559,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Strollway</Greenway>
+    <name>Second St</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-80.245880,36.096046,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Strollway</Greenway>
+    <name>Third St</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>-80.246178,36.097591,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Strollway</Greenway>
+    <name>Fourth St</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-80.246262,36.098286,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Brushy Fork Creek Trail</Greenway>
+    <name>Lowery St</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-80.218178,36.094364,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Brushy Fork Creek Trail and Virginia</Greenway>
+    <name>Old GSO Rd</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>-80.217644,36.099812,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Virginia K. Newell/Ann Massey Trail</Greenway>
+    <name>Waterworks Rd</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-80.207664,36.112988,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Bowen Branch trail</Greenway>
+    <name>New Walkertown Rd</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-80.209999,36.114166,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Bowen Branch trail</Greenway>
+    <name>Bowen Blvd</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-80.211586,36.118637,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Silas creek trail</Greenway>
+    <name>Yorkshire Rd</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-80.306885,36.104595,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Silas creek trail</Greenway>
+    <name>Burkeshore Rd</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-80.304733,36.109451,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Silas creek trail</Greenway>
+    <name>Robinhood Rd</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-80.303017,36.112293,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Jefferson School Connector</Greenway>
+    <name>Jefferson Elem</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-80.348511,36.123940,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Muddy Creek Trail</Greenway>
+    <name>Robinhood Rd Muddy Creek</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-80.350227,36.118740,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Muddy Creek Trail</Greenway>
+    <name>Meadowlark</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-80.363274,36.096966,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Bethabara Trail</Greenway>
+    <name>Indiana Ave</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>-80.293816,36.151459,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Bethabara Trail</Greenway>
+    <name>Old Town Rd</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-80.292725,36.148930,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+  	<Greenway>Bethabara Trail</Greenway>
+    <name>Bethabara Rd</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-80.301476,36.156414,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

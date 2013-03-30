@@ -10,6 +10,7 @@ import android.os.Parcelable;
 
 public class Greenway{
 	private String title;
+	private String accesspt;
 	private String[] location;
 	public static HashMap<String, Greenway> greenways;
 	
@@ -37,12 +38,20 @@ public class Greenway{
 		location = t;
 	}
 	
+	public void setAccessPt(String t){
+		accesspt = t;
+	}
+	
 	public String getTitle(){
 		return title;
 	}
 	
 	public String[] getLocation(){
 		return location;
+	}
+	
+	public String getAccesspt(){
+		return accesspt;
 	}
 	/*
 	public int describeContents() {
