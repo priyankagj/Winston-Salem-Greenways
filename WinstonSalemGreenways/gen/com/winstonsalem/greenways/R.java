@@ -13,6 +13,7 @@ public final class R {
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
         public static final int locationmarker=0x7f020001;
+        public static final int parkingmarker=0x7f020002;
     }
     public static final class id {
         public static final int get_direction=0x7f080000;
@@ -36,7 +37,9 @@ public final class R {
         public static final int activity_front_line=0x7f070000;
     }
     public static final class raw {
-        public static final int greenways=0x7f040000;
+        public static final int greenwayaccesspoints=0x7f040000;
+        public static final int greenwayparkingareas=0x7f040001;
+        public static final int greenways=0x7f040002;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
