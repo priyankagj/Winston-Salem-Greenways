@@ -81,12 +81,15 @@ public class GreenwayMap extends MapActivity implements Serializable{
         myLocationOverlay.enableMyLocation();
         mapView.getOverlays().add(myLocationOverlay);
         
+        mapView.invalidate();
+        
+        System.out.println("time1= "+System.currentTimeMillis());
         displayAccesspt();
         
         displayParkingArea();
         
-        //displayGreenway();
-        
+        displayGreenway();
+        System.out.println("time2= "+System.currentTimeMillis());
         
         LocationManager locationManager;
         String context = Context.LOCATION_SERVICE;
@@ -121,8 +124,6 @@ public class GreenwayMap extends MapActivity implements Serializable{
 			e.printStackTrace();
 		}
         
-    	mapView.invalidate();
-    	
     	Iterator<String[]> itr = line.iterator();
         String[] l = new String[3];
         String[] l2 = new String[3];
@@ -135,17 +136,17 @@ public class GreenwayMap extends MapActivity implements Serializable{
         	String[] ls = itr.next();
         	count += ls.length;
         	if(ls.length > 10){
-        	for(int i=0;i<ls.length-5;i=i+5){
+        	for(int i=0;i<ls.length-6;i=i+6){
         		l = ls[i].split(",");
         		lattitudeValue = Double.parseDouble(l[1]); //converting string lattitude value to double
 		        longitudeValue=Double.parseDouble(l[0]); //converting string longitude value to double
 		        gp1 = new GeoPoint((int) (lattitudeValue * 1E6), (int) (longitudeValue * 1E6));
 		        
-		        if(i+5 > ls.length-2){
+		        if(i+6 > ls.length-2){
 		        	l2 = ls[ls.length-2].split(",");
 		        }
 		        else{
-		        l2 = ls[i+5].split(",");
+		        l2 = ls[i+6].split(",");
 		        }
 		        lattitudeValue2 = Double.parseDouble(l2[1]); //converting string lattitude value to double
 		        longitudeValue2 =Double.parseDouble(l2[0]); //converting string longitude value to double
@@ -155,17 +156,17 @@ public class GreenwayMap extends MapActivity implements Serializable{
         	}
         	}
         	else{
-        		for(int i=0;i<ls.length-3;i=i+2){
+        		for(int i=0;i<ls.length-4;i=i+3){
             		l = ls[i].split(",");
             		lattitudeValue = Double.parseDouble(l[1]); //converting string lattitude value to double
     		        longitudeValue=Double.parseDouble(l[0]); //converting string longitude value to double
     		        gp1 = new GeoPoint((int) (lattitudeValue * 1E6), (int) (longitudeValue * 1E6));
     		        
-    		        if(i+2 > ls.length-2){
+    		        if(i+3 > ls.length-2){
     		        	l2 = ls[ls.length-2].split(",");
     		        }
     		        else{
-    		        l2 = ls[i+2].split(",");
+    		        l2 = ls[i+3].split(",");
     		        }
     		        lattitudeValue2 = Double.parseDouble(l2[1]); //converting string lattitude value to double
     		        longitudeValue2 =Double.parseDouble(l2[0]); //converting string longitude value to double
@@ -194,8 +195,6 @@ public class GreenwayMap extends MapActivity implements Serializable{
 		}
         
                
-        mapView.invalidate();
-        
         List<Overlay> mapOverlays = mapView.getOverlays();
         Drawable drawable = this.getResources().getDrawable(R.drawable.parkingmarker);
         ParkingItemizedOverlay itemizedoverlay = new ParkingItemizedOverlay(drawable, this);
@@ -229,9 +228,6 @@ public class GreenwayMap extends MapActivity implements Serializable{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-        
-        
-        mapView.invalidate();
         
         List<Overlay> mapOverlays = mapView.getOverlays();
         Drawable drawable = this.getResources().getDrawable(R.drawable.locationmarker);

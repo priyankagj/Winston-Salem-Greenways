@@ -38,8 +38,8 @@ public class LineItemizedOverlay extends Overlay implements Serializable{
 	        paint.setStyle(Paint.Style.FILL_AND_STROKE);
 	        paint.setStrokeJoin(Paint.Join.ROUND);
 	        paint.setStrokeCap(Paint.Cap.ROUND);
-	        paint.setStrokeWidth(2);
-	        paint.setColor(Color.GREEN);
+	        paint.setStrokeWidth(4);
+	        paint.setARGB(90, 0, 100, 0);
 	        
 	        Point p1 = new Point();
 	        Point p2 = new Point();

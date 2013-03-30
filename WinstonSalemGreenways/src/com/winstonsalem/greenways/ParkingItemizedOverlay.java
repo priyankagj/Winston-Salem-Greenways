@@ -51,4 +51,11 @@ public class ParkingItemizedOverlay extends ItemizedOverlay<OverlayItem> impleme
 	    return mOverlays.size();
 	}
 
+	@Override
+	public void draw(Canvas canvas, MapView mapView, boolean shadow) {
+        if(!shadow) {
+            super.draw(canvas, mapView, false);
+        }
+    }
+	
 }
