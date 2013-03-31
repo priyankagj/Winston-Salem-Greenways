@@ -13,7 +13,7 @@ import android.view.Window;
 public class FrontLine extends Activity {
     /** Called when the activity is first created. */
 	
-	//To check if the connection to the server is ok
+	//To check if the connection to the server is okay
 	private boolean isNetworkAvailable() {
 		ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
 		NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
@@ -38,7 +38,7 @@ public class FrontLine extends Activity {
 			public void onFinish() {
 		 		if(isNetworkAvailable())
 		 		{		 	
-		 			Intent intent=new Intent(FrontLine.this, GreenwayMap.class);
+		 			Intent intent=new Intent(FrontLine.this, GreenwayListActivity.class);
 		 			startActivity(intent);
 		 		}
 		 		else

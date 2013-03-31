@@ -3,9 +3,6 @@ package com.winstonsalem.greenways;
 
 import java.util.HashMap;
 
-import android.os.Parcel;
-import android.os.Parcelable;
-
 //import android.location.Location;
 
 public class Greenway{

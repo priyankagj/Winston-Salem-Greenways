@@ -1,29 +1,18 @@
 package com.winstonsalem.greenways;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
-import java.util.Scanner;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import com.google.android.maps.GeoPoint;
-
-
 import android.content.Context;
-import android.graphics.Point;
-import android.location.Location;
 import android.os.AsyncTask;
 
 public class AccessptParse extends AsyncTask<String, Void, HashMap<String, Greenway>> {
@@ -31,14 +20,12 @@ public class AccessptParse extends AsyncTask<String, Void, HashMap<String, Green
 	public AccessptParse(Context context){
 		this.context = context;
 	}
-    private static final String TAG = "EARTHQUAKE";
-	String[] location;
+    String[] location;
 	HashMap<String, Greenway> greenways;
 	
 	
 	@Override
     protected HashMap<String, Greenway> doInBackground(String... params) {
-        String str = params[0]; 
         greenways = new HashMap<String, Greenway>();
         try {
 	        InputStream in = context.getResources().openRawResource(R.raw.greenwayaccesspoints);

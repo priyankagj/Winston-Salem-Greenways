@@ -6,6 +6,7 @@ package com.winstonsalem.greenways;
 	import android.view.Window;
 
 	public class NetworkError extends Activity {
+		@Override
 		public void onCreate(Bundle savedInstanceState) {
 			super.onCreate(savedInstanceState);
 			Log.d("first", "hello all izz well");

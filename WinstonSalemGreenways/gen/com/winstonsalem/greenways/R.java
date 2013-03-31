@@ -14,24 +14,28 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
         public static final int locationmarker=0x7f020001;
         public static final int parkingmarker=0x7f020002;
+        public static final int waytogologo=0x7f020003;
     }
     public static final class id {
-        public static final int get_direction=0x7f080000;
-        public static final int greenways_list=0x7f080005;
-        public static final int layout_root=0x7f080001;
-        public static final int mapView=0x7f080003;
-        public static final int menu_settings=0x7f080007;
-        public static final int text=0x7f080002;
-        public static final int textView1=0x7f080006;
-        public static final int zoom=0x7f080004;
+        public static final int accessPointName=0x7f080001;
+        public static final int distance=0x7f080002;
+        public static final int get_direction=0x7f080003;
+        public static final int greenwayName=0x7f080000;
+        public static final int layout_root=0x7f080004;
+        public static final int mapView=0x7f080006;
+        public static final int menu_settings=0x7f080009;
+        public static final int text=0x7f080005;
+        public static final int textView1=0x7f080008;
+        public static final int zoom=0x7f080007;
     }
     public static final class layout {
         public static final int activity_front_line=0x7f030000;
-        public static final int description=0x7f030001;
-        public static final int dialog=0x7f030002;
-        public static final int greenway_map=0x7f030003;
-        public static final int list_activity=0x7f030004;
-        public static final int network_error=0x7f030005;
+        public static final int custom_row_view=0x7f030001;
+        public static final int description=0x7f030002;
+        public static final int dialog=0x7f030003;
+        public static final int greenway_map=0x7f030004;
+        public static final int list_activity=0x7f030005;
+        public static final int network_error=0x7f030006;
     }
     public static final class menu {
         public static final int activity_front_line=0x7f070000;
