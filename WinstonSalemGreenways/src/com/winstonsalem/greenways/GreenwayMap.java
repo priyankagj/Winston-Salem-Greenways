@@ -27,7 +27,9 @@ import com.google.android.maps.MyLocationOverlay;
 import com.google.android.maps.Overlay;
 import com.google.android.maps.OverlayItem;
 
+import android.app.ActionBar;
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.Menu;
 import android.widget.Toast;
@@ -290,6 +292,21 @@ public class GreenwayMap extends MapActivity implements Serializable{
         return true;
     }
 
+    /*
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.:
+                // app icon in action bar clicked; go home
+                Intent intent = new Intent(this, GreenwayMap.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+    */
 	@Override
 	protected boolean isRouteDisplayed() {
 		// TODO Auto-generated method stub

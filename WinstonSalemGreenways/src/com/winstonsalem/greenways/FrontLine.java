@@ -1,5 +1,6 @@
 package com.winstonsalem.greenways;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -24,6 +25,7 @@ public class FrontLine extends Activity {
     public void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
     
+    	//ActionBar actionbar = 
     	//Put the following code for disabling window title after onCreate and before setContentView, else it won't work
     	requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_front_line);
