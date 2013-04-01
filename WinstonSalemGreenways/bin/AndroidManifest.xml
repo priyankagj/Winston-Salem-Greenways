@@ -35,6 +35,9 @@
 
         <activity android:name=".GreenwayMap" />
         <activity android:name=".Greenway_Description" />
+        <activity android:name=".Weather" />
+        <activity android:name=".CityLink" />
+        <activity android:name=".NetworkError" />
     </application>
 
 </manifest>

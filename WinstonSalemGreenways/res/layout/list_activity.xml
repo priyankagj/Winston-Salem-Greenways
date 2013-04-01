@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
-    >
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
 
+    <com.winstonsalem.greenways.ButtonPanel
+        android:id="@+id/buttonPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
     <ListView
         android:id="@id/android:list"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="0dip"
         android:layout_weight="2"
         android:drawSelectorOnTop="false"
-         android:scrollbars="vertical" >
+        android:scrollbars="vertical" >
     </ListView>
 
     <TextView
         android:id="@id/android:empty"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:text="No data" />
+        android:layout_height="fill_parent" />    
 
 </LinearLayout>

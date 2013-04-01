@@ -1,6 +1,5 @@
 package com.winstonsalem.greenways;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -25,15 +24,9 @@ import com.google.android.maps.Overlay;
 import com.google.android.maps.OverlayItem;
 
 import android.content.Context;
-import android.view.Menu;
 import android.widget.Toast;
 
-public class GreenwayMap extends MapActivity implements Serializable{
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-
+public class GreenwayMap extends MapActivity{
 	MapController mc;
 	GeoPoint p;
 
@@ -83,7 +76,6 @@ public class GreenwayMap extends MapActivity implements Serializable{
 
 		//displayGreenway();
 
-
 		LocationManager locationManager;
 		String context = Context.LOCATION_SERVICE;
 		locationManager = (LocationManager)getSystemService(context);
@@ -100,7 +92,6 @@ public class GreenwayMap extends MapActivity implements Serializable{
 		updateWithNewLocation(location, 0);
 		locationManager.requestLocationUpdates(provider, 2000, 10, locationListener);
 	}
-
 
 	@SuppressWarnings("unused")
 	private void displayGreenway() {
@@ -132,17 +123,17 @@ public class GreenwayMap extends MapActivity implements Serializable{
 			String[] ls = itr.next();
 			count += ls.length;
 			if(ls.length > 10){
-				for(int i=0;i<ls.length-5;i=i+5){
+				for(int i=0;i<ls.length-6;i=i+6){
 					l = ls[i].split(",");
 					lattitudeValue = Double.parseDouble(l[1]); //converting string latitude value to double
 					longitudeValue=Double.parseDouble(l[0]); //converting string longitude value to double
 					gp1 = new GeoPoint((int) (lattitudeValue * 1E6), (int) (longitudeValue * 1E6));
 
-					if(i+5 > ls.length-2){
+					if(i+6 > ls.length-2){
 						l2 = ls[ls.length-2].split(",");
 					}
 					else{
-						l2 = ls[i+5].split(",");
+						l2 = ls[i+6].split(",");
 					}
 					lattitudeValue2 = Double.parseDouble(l2[1]); //converting string latitude value to double
 					longitudeValue2 =Double.parseDouble(l2[0]); //converting string longitude value to double
@@ -152,17 +143,17 @@ public class GreenwayMap extends MapActivity implements Serializable{
 				}
 			}
 			else{
-				for(int i=0;i<ls.length-3;i=i+2){
+				for(int i=0;i<ls.length-4;i=i+3){
 					l = ls[i].split(",");
 					lattitudeValue = Double.parseDouble(l[1]); //converting string lattitude value to double
 					longitudeValue=Double.parseDouble(l[0]); //converting string longitude value to double
 					gp1 = new GeoPoint((int) (lattitudeValue * 1E6), (int) (longitudeValue * 1E6));
 
-					if(i+2 > ls.length-2){
+					if(i+3 > ls.length-2){
 						l2 = ls[ls.length-2].split(",");
 					}
 					else{
-						l2 = ls[i+2].split(",");
+						l2 = ls[i+3].split(",");
 					}
 					lattitudeValue2 = Double.parseDouble(l2[1]); //converting string lattitude value to double
 					longitudeValue2 =Double.parseDouble(l2[0]); //converting string longitude value to double
@@ -176,7 +167,6 @@ public class GreenwayMap extends MapActivity implements Serializable{
 		System.out.println("itrcount= " +itrcount);
 	}
 
-
 	private void displayParkingArea() {
 		HashMap<String, String[]> parking = new HashMap<String, String[]>();
 		ParkingParse parseXMLTask = new ParkingParse(this);
@@ -189,7 +179,6 @@ public class GreenwayMap extends MapActivity implements Serializable{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 
 		mapView.invalidate();
 
@@ -210,9 +199,7 @@ public class GreenwayMap extends MapActivity implements Serializable{
 			itemizedoverlay.addOverlay(overlayitem);
 			mapOverlays.add(itemizedoverlay);
 		}
-
 	}
-
 
 	private void displayAccesspt() {
 
@@ -286,12 +273,6 @@ public class GreenwayMap extends MapActivity implements Serializable{
 	}
 
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.activity_front_line, menu);
-		return true;
-	}
-
-	@Override
 	protected boolean isRouteDisplayed() {
 		// TODO Auto-generated method stub
 		return false;
@@ -316,4 +297,34 @@ public class GreenwayMap extends MapActivity implements Serializable{
 		super.onPause();
 
 	}
+
+	/*@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) 
+	{
+		switch (item.getItemId()) 
+		{
+		case R.id.menu_map:
+			Intent map = new Intent(GreenwayMap.this, GreenwayMap.class);     
+			startActivity(map);
+			break;
+		case R.id.menu_weather:
+			Weather.inital(this);
+			break;
+		case R.id.menu_citylink:
+			Intent citylink = new Intent(GreenwayMap.this, CityLink.class);     
+			startActivity(citylink);
+			break;
+		default:
+			break;
+		}
+		return true;
+	}*/
+
+
 }

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="70dip"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dip"
+        android:contentDescription="Button"
+        android:scaleType="fitXY"
+        android:src="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/map"
+        android:layout_width="70dip"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="7dip"
+        android:layout_toRightOf="@+id/home"
+        android:contentDescription="Map"
+        android:scaleType="fitXY"
+        android:src="@drawable/map" />
+
+    <ImageButton
+        android:id="@+id/weather"
+        android:layout_width="70dip"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="7dip"
+        android:layout_toRightOf="@+id/map"
+        android:contentDescription="Weather"
+        android:scaleType="fitXY"
+        android:src="@drawable/weather" />
+    
+    <ImageButton
+        android:id="@+id/city"
+        android:layout_width="70dip"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="7dip"
+        android:layout_toRightOf="@+id/weather"
+        android:contentDescription="City"
+        android:scaleType="fitXY"
+        android:src="@drawable/citylink_logo1" />
+
+</merge>

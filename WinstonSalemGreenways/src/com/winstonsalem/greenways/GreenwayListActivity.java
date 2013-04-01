@@ -31,6 +31,10 @@ public class GreenwayListActivity extends ListActivity{
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.list_activity);
+
+		ButtonPanel btn = (ButtonPanel) findViewById(R.id.buttonPanel);
+		btn.initHeader(this);
+
 		final ListView lv = getListView();
 		SimpleAdapter adapter = new SimpleAdapter(
 				this,
@@ -42,9 +46,6 @@ public class GreenwayListActivity extends ListActivity{
 		populateList();
 		setListAdapter(adapter);
 
-		/**
-		 *  
-		 */
 		lv.setOnItemClickListener(new OnItemClickListener(){
 
 			public void onItemClick(AdapterView<?> parent, View view, int position,
@@ -60,7 +61,6 @@ public class GreenwayListActivity extends ListActivity{
 				startActivity(intent);
 			}			
 		});
-
 	}
 
 	/**
@@ -81,11 +81,10 @@ public class GreenwayListActivity extends ListActivity{
 			}
 		}
 
-		//Location curLocation = getCurrentLocation();
-
-		Location curLocation = new Location("dummy");
+		Location curLocation = getCurrentLocation();
+		/*Location curLocation = new Location("dummy");
 		curLocation.setLatitude(36.160642);
-		curLocation.setLongitude(-80.305375);
+		curLocation.setLongitude(-80.305375);*/
 
 		for(String key : Greenway.greenways.keySet()) {
 
@@ -120,7 +119,7 @@ public class GreenwayListActivity extends ListActivity{
 			}
 		});
 	}
-		
+
 	/**
 	 * To fetch the current location of the user
 	 * @return The location object
@@ -193,4 +192,30 @@ public class GreenwayListActivity extends ListActivity{
 		return Radius * c;
 	}
 
+	@Override
+	public void onBackPressed() {
+		moveTaskToBack(true);
+	}
+
+	/*@Override
+	public boolean onOptionsItemSelected(MenuItem item) 
+	{
+		switch (item.getItemId()) 
+		{
+		case R.id.menu_map:
+			Intent map = new Intent(GreenwayListActivity.this, GreenwayMap.class);     
+			startActivity(map);
+			break;
+		case R.id.menu_weather:
+			Weather.inital(this);
+			break;
+		case R.id.menu_citylink:
+			Intent citylink = new Intent(GreenwayListActivity.this, CityLink.class);     
+			startActivity(citylink);
+			break;
+		default:
+			break;
+		}
+		return true;
+	}*/
 }

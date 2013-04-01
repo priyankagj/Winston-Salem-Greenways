@@ -1,8 +1,6 @@
 package com.winstonsalem.greenways;
 
-import java.io.Serializable;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Point;
@@ -11,12 +9,7 @@ import com.google.android.maps.MapView;
 import com.google.android.maps.Overlay;
 import com.google.android.maps.Projection;
 
-public class LineItemizedOverlay extends Overlay implements Serializable{
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	
+public class LineItemizedOverlay extends Overlay{
 	private GeoPoint gp1;
 	private GeoPoint gp2;
 	
@@ -38,8 +31,8 @@ public class LineItemizedOverlay extends Overlay implements Serializable{
 	        paint.setStyle(Paint.Style.FILL_AND_STROKE);
 	        paint.setStrokeJoin(Paint.Join.ROUND);
 	        paint.setStrokeCap(Paint.Cap.ROUND);
-	        paint.setStrokeWidth(2);
-	        paint.setColor(Color.GREEN);
+	        paint.setStrokeWidth(4);
+	        paint.setARGB(90, 0, 100, 0);
 	        
 	        Point p1 = new Point();
 	        Point p2 = new Point();
