@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <fragment
+        android:id="@+id/DescFragment"
+        android:name="com.example.greenways.DescriptionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.3"
+        tools:layout="@layout/description" />
+
+    <fragment
+        android:id="@+id/ButtonFragment"
+        android:name="com.example.greenways.DirectionsButtonFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top"
+        android:layout_weight="8.7" />
+
+    <fragment
+        android:id="@+id/Header"
+        android:name="com.example.greenways.Header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="9" />
+
+</LinearLayout>

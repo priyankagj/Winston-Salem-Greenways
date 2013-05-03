@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttonBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/custom_button"
+        android:drawableTop="@drawable/home"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/custom_button"
+        android:drawableTop="@drawable/transparent_map"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/custom_button"
+        android:drawableTop="@drawable/transparent_weather"
+        android:gravity="center_horizontal" 
+        android:paddingTop="2dip"/>
+
+    <Button
+        android:id="@+id/citilink"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/custom_button"
+        android:drawableTop="@drawable/clickfix"
+        android:gravity="center_horizontal" 
+        android:paddingTop="7dip"/>
+
+</LinearLayout>

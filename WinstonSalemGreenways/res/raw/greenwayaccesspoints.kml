@@ -265,7 +265,7 @@
   <Placemark>
   	<Greenway>Salem Lake trail</Greenway>
     <name>Linville 2</name>
-    <description><![CDATA[]]></description>
+    <description>- 7 miles unpaved around Salem Lake. Bikes allowed. (Trail users please sign in at Fishing Station)</description>
     <styleUrl>#style18</styleUrl>
     <Point>
       <coordinates>-80.158936,36.106754,0.000000</coordinates>
@@ -274,7 +274,7 @@
   <Placemark>
 	<Greenway>Salem Lake trail</Greenway>
     <name>Linville 1</name>
-    <description><![CDATA[]]></description>
+    <description>- 7 miles unpaved around Salem Lake. Bikes allowed. (Trail users please sign in at Fishing Station)</description>
     <styleUrl>#style37</styleUrl>
     <Point>
       <coordinates>-80.159225,36.105133,0.000000</coordinates>
@@ -283,7 +283,7 @@
   <Placemark>
   	<Greenway>Salem Lake trail</Greenway>
     <name>New GSO Road</name>
-    <description><![CDATA[]]></description>
+    <description>- 7 miles unpaved around Salem Lake. Bikes allowed. (Trail users please sign in at Fishing Station)</description>
     <styleUrl>#style11</styleUrl>
     <Point>
       <coordinates>-80.185188,36.101067,0.000000</coordinates>
@@ -292,7 +292,7 @@
   <Placemark>
   	<Greenway>Salem Lake trail</Greenway>
     <name>Salem Lake Road</name>
-    <description><![CDATA[]]></description>
+    <description>- 7 miles unpaved around Salem Lake. Bikes allowed. (Trail users please sign in at Fishing Station)</description>
     <styleUrl>#style15</styleUrl>
     <Point>
       <coordinates>-80.193413,36.092625,0.000000</coordinates>
@@ -301,7 +301,7 @@
   <Placemark>
   	<Greenway>Salem Lake trail</Greenway>
     <name>Reynolds Park Road</name>
-    <description><![CDATA[]]></description>
+    <description>- 7 miles unpaved around Salem Lake. Bikes allowed. (Trail users please sign in at Fishing Station)</description>
     <styleUrl>#style34</styleUrl>
     <Point>
       <coordinates>-80.210556,36.088749,0.000000</coordinates>
@@ -310,7 +310,7 @@
   <Placemark>
   	<Greenway>Waughtown Connector</Greenway>
     <name>Peachtree Street Waughtown</name>
-    <description><![CDATA[]]></description>
+    <description>.85 miles, The Waughtown Connector begins at the end of the Peachtree Greenway within Reynolds Park. The greenway will proceed south through the former Piedmont Quarry site to Waughtown Street. The quarry site is now owned by the City.</description>
     <styleUrl>#style21</styleUrl>
     <Point>
       <coordinates>-80.211052,36.086094,0.000000</coordinates>
@@ -319,7 +319,7 @@
   <Placemark>
   	<Greenway>Salem Creek Trail</Greenway>
     <name>Peachtree Street Salem Creek</name>
-    <description><![CDATA[]]></description>
+    <description>5.2 miles paved along Salem Creek from Peters Creek Parkway to Salem Lake. Bikes and skates allowed.</description>
     <styleUrl>#style8</styleUrl>
     <Point>
       <coordinates>-80.211182,36.086998,0.000000</coordinates>
@@ -328,7 +328,7 @@
   <Placemark>
   	<Greenway>Salem Creek Trail</Greenway>
     <name>Diggs Blvd</name>
-    <description><![CDATA[]]></description>
+    <description>5.2 miles paved along Salem Creek from Peters Creek Parkway to Salem Lake. Bikes and skates allowed.</description>
     <styleUrl>#style35</styleUrl>
     <Point>
       <coordinates>-80.221199,36.086510,0.000000</coordinates>
@@ -337,7 +337,7 @@
   <Placemark>
   	<Greenway>Salem Creek Trail</Greenway>
     <name>WSSU</name>
-    <description><![CDATA[]]></description>
+    <description>5.2 miles paved along Salem Creek from Peters Creek Parkway to Salem Lake. Bikes and skates allowed.</description>
     <styleUrl>#style20</styleUrl>
     <Point>
       <coordinates>-80.225174,36.085854,0.000000</coordinates>
@@ -346,7 +346,7 @@
   <Placemark>
 	<Greenway>Salem Creek Trail</Greenway>
     <name>Liberia St</name>
-    <description><![CDATA[]]></description>
+    <description>5.2 miles paved along Salem Creek from Peters Creek Parkway to Salem Lake. Bikes and skates allowed.</description>
     <styleUrl>#style9</styleUrl>
     <Point>
       <coordinates>-80.236649,36.084641,0.000000</coordinates>
@@ -355,7 +355,7 @@
   <Placemark>
   	<Greenway>Salem Creek Trail</Greenway>
     <name>Tennis Courts</name>
-    <description><![CDATA[]]></description>
+    <description>5.2 miles paved along Salem Creek from Peters Creek Parkway to Salem Lake. Bikes and skates allowed.</description>
     <styleUrl>#style24</styleUrl>
     <Point>
       <coordinates>-80.240471,36.081310,0.000000</coordinates>
@@ -364,7 +364,7 @@
   <Placemark>
   	<Greenway>Strollway</Greenway>
     <name>Strollway South</name>
-    <description><![CDATA[]]></description>
+    <description>- 1.2 miles paved and gravel connector between downtown and Old Salem, from 4th Street to Salem Av</description>
     <styleUrl>#style19</styleUrl>
     <Point>
       <coordinates>-80.241798,36.082352,0.000000</coordinates>
@@ -373,7 +373,7 @@
   <Placemark>
   	<Greenway>Strollway</Greenway>
     <name>SE Gateway</name>
-    <description><![CDATA[]]></description>
+    <description>- 1.2 miles paved and gravel connector between downtown and Old Salem, from 4th Street to Salem Av</description>
     <styleUrl>#style28</styleUrl>
     <Point>
       <coordinates>-80.241608,36.080479,0.000000</coordinates>
@@ -382,7 +382,7 @@
   <Placemark>
   	<Greenway>Salem Creek Trail</Greenway>
     <name>Broad St</name>
-    <description><![CDATA[]]></description>
+    <description>5.2 miles paved along Salem Creek from Peters Creek Parkway to Salem Lake. Bikes and skates allowed.</description>
     <styleUrl>#style7</styleUrl>
     <Point>
       <coordinates>-80.244377,36.080059,0.000000</coordinates>
@@ -391,7 +391,7 @@
   <Placemark>
   	<Greenway>Salem Creek Trail</Greenway>
     <name>Wash Park Lane</name>
-    <description><![CDATA[]]></description>
+    <description>5.2 miles paved along Salem Creek from Peters Creek Parkway to Salem Lake. Bikes and skates allowed.</description>
     <styleUrl>#style1</styleUrl>
     <Point>
       <coordinates>-80.251991,36.077164,0.000000</coordinates>
@@ -400,7 +400,7 @@
   <Placemark>
   	<Greenway>Salem Creek Trail</Greenway>
     <name>Wash Park</name>
-    <description><![CDATA[]]></description>
+    <description>5.2 miles paved along Salem Creek from Peters Creek Parkway to Salem Lake. Bikes and skates allowed.</description>
     <styleUrl>#style10</styleUrl>
     <Point>
       <coordinates>-80.250000,36.076038,0.000000</coordinates>
@@ -409,7 +409,7 @@
   <Placemark>
   	<Greenway>Salem Creek Trail</Greenway>
     <name>Marketplace Mall</name>
-    <description><![CDATA[]]></description>
+    <description>5.2 miles paved along Salem Creek from Peters Creek Parkway to Salem Lake. Bikes and skates allowed.</description>
     <styleUrl>#style30</styleUrl>
     <Point>
       <coordinates>-80.254074,36.072186,0.000000</coordinates>
@@ -418,7 +418,7 @@
   <Placemark>
   	<Greenway>Strollway</Greenway>
     <name>Academy St</name>
-    <description><![CDATA[]]></description>
+    <description>- 1.2 miles paved and gravel connector between downtown and Old Salem, from 4th Street to Salem Av</description>
     <styleUrl>#style33</styleUrl>
     <Point>
       <coordinates>-80.243904,36.087379,0.000000</coordinates>
@@ -427,7 +427,7 @@
   <Placemark>
   	<Greenway>Strollway</Greenway>
     <name>Brookstown Ave</name>
-    <description><![CDATA[]]></description>
+    <description>- 1.2 miles paved and gravel connector between downtown and Old Salem, from 4th Street to Salem Av</description>
     <styleUrl>#style6</styleUrl>
     <Point>
       <coordinates>-80.244675,36.090897,0.000000</coordinates>
@@ -436,7 +436,7 @@
   <Placemark>
   	<Greenway>Strollway</Greenway>
     <name>First St</name>
-    <description><![CDATA[]]></description>
+    <description>- 1.2 miles paved and gravel connector between downtown and Old Salem, from 4th Street to Salem Av</description>
     <styleUrl>#style31</styleUrl>
     <Point>
       <coordinates>-80.245689,36.094559,0.000000</coordinates>
@@ -445,7 +445,7 @@
   <Placemark>
   	<Greenway>Strollway</Greenway>
     <name>Second St</name>
-    <description><![CDATA[]]></description>
+    <description>- 1.2 miles paved and gravel connector between downtown and Old Salem, from 4th Street to Salem Av</description>
     <styleUrl>#style25</styleUrl>
     <Point>
       <coordinates>-80.245880,36.096046,0.000000</coordinates>
@@ -454,7 +454,7 @@
   <Placemark>
   	<Greenway>Strollway</Greenway>
     <name>Third St</name>
-    <description><![CDATA[]]></description>
+    <description>- 1.2 miles paved and gravel connector between downtown and Old Salem, from 4th Street to Salem Av</description>
     <styleUrl>#style32</styleUrl>
     <Point>
       <coordinates>-80.246178,36.097591,0.000000</coordinates>
@@ -463,7 +463,7 @@
   <Placemark>
   	<Greenway>Strollway</Greenway>
     <name>Fourth St</name>
-    <description><![CDATA[]]></description>
+    <description>- 1.2 miles paved and gravel connector between downtown and Old Salem, from 4th Street to Salem Av</description>
     <styleUrl>#style17</styleUrl>
     <Point>
       <coordinates>-80.246262,36.098286,0.000000</coordinates>
@@ -472,7 +472,7 @@
   <Placemark>
   	<Greenway>Brushy Fork Creek Trail</Greenway>
     <name>Lowery St</name>
-    <description><![CDATA[]]></description>
+    <description>.4 mile path along Brushy Fork Creek connecting south to Newell/Massey Greenway. Begins at Skyland Park at Old Greensboro Road, and ends at Lowery Street. Will connect in the future to Salem Creek Greenway.</description>
     <styleUrl>#style23</styleUrl>
     <Point>
       <coordinates>-80.218178,36.094364,0.000000</coordinates>
@@ -481,7 +481,7 @@
   <Placemark>
   	<Greenway>Brushy Fork Creek Trail and Virginia</Greenway>
     <name>Old GSO Rd</name>
-    <description><![CDATA[]]></description>
+    <description>.4 mile path along Brushy Fork Creek connecting south to Newell/Massey Greenway. Begins at Skyland Park at Old Greensboro Road, and ends at Lowery Street. Will connect in the future to Salem Creek Greenway.</description>
     <styleUrl>#style36</styleUrl>
     <Point>
       <coordinates>-80.217644,36.099812,0.000000</coordinates>
@@ -490,7 +490,7 @@
   <Placemark>
   	<Greenway>Virginia K. Newell/Ann Massey Trail</Greenway>
     <name>Waterworks Rd</name>
-    <description><![CDATA[]]></description>
+    <description>1.2 miles paved along Brushy Fork from Waterworks Road to Old Greensboro Road. Bikes and skates allowed.</description>
     <styleUrl>#style5</styleUrl>
     <Point>
       <coordinates>-80.207664,36.112988,0.000000</coordinates>
@@ -499,7 +499,7 @@
   <Placemark>
   	<Greenway>Bowen Branch trail</Greenway>
     <name>New Walkertown Rd</name>
-    <description><![CDATA[]]></description>
+    <description>.3 miles paved along Brushy Fork Creek from Bowen Boulevard to Highway 311/New Walkertown Road. Bikes and skates allowed.</description>
     <styleUrl>#style27</styleUrl>
     <Point>
       <coordinates>-80.209999,36.114166,0.000000</coordinates>
@@ -508,7 +508,7 @@
   <Placemark>
   	<Greenway>Bowen Branch trail</Greenway>
     <name>Bowen Blvd</name>
-    <description><![CDATA[]]></description>
+    <description>.3 miles paved along Brushy Fork Creek from Bowen Boulevard to Highway 311/New Walkertown Road. Bikes and skates allowed.</description>
     <styleUrl>#style22</styleUrl>
     <Point>
       <coordinates>-80.211586,36.118637,0.000000</coordinates>
@@ -517,7 +517,7 @@
   <Placemark>
   	<Greenway>Silas creek trail</Greenway>
     <name>Yorkshire Rd</name>
-    <description><![CDATA[]]></description>
+    <description>.8 mile paved and unpaved along Silas Creek from Yorkshire to Robinhood roads. Bikes and skates allowed</description>
     <styleUrl>#style12</styleUrl>
     <Point>
       <coordinates>-80.306885,36.104595,0.000000</coordinates>
@@ -526,7 +526,7 @@
   <Placemark>
   	<Greenway>Silas creek trail</Greenway>
     <name>Burkeshore Rd</name>
-    <description><![CDATA[]]></description>
+    <description>.8 mile paved and unpaved along Silas Creek from Yorkshire to Robinhood roads. Bikes and skates allowed</description>
     <styleUrl>#style2</styleUrl>
     <Point>
       <coordinates>-80.304733,36.109451,0.000000</coordinates>
@@ -535,7 +535,7 @@
   <Placemark>
   	<Greenway>Silas creek trail</Greenway>
     <name>Robinhood Rd</name>
-    <description><![CDATA[]]></description>
+    <description>.8 mile paved and unpaved along Silas Creek from Yorkshire to Robinhood roads. Bikes and skates allowed</description>
     <styleUrl>#style4</styleUrl>
     <Point>
       <coordinates>-80.303017,36.112293,0.000000</coordinates>
@@ -544,7 +544,7 @@
   <Placemark>
   	<Greenway>Jefferson School Connector</Greenway>
     <name>Jefferson Elem</name>
-    <description><![CDATA[]]></description>
+    <description>- 1.6 miles, paved along Muddy Creek between County Club and Jefferson Elementary School. Entrance off of Meadowlark Road. Bikes and skates allowed</description>
     <styleUrl>#style16</styleUrl>
     <Point>
       <coordinates>-80.348511,36.123940,0.000000</coordinates>
@@ -553,7 +553,7 @@
   <Placemark>
   	<Greenway>Muddy Creek Trail</Greenway>
     <name>Robinhood Rd Muddy Creek</name>
-    <description><![CDATA[]]></description>
+    <description>- 1.6 miles, paved along Muddy Creek between County Club and Jefferson Elementary School. Entrance off of Meadowlark Road. Bikes and skates allowed</description>
     <styleUrl>#style26</styleUrl>
     <Point>
       <coordinates>-80.350227,36.118740,0.000000</coordinates>
@@ -562,7 +562,7 @@
   <Placemark>
   	<Greenway>Muddy Creek Trail</Greenway>
     <name>Meadowlark</name>
-    <description><![CDATA[]]></description>
+    <description>- 1.6 miles, paved along Muddy Creek between County Club and Jefferson Elementary School. Entrance off of Meadowlark Road. Bikes and skates allowed</description>
     <styleUrl>#style3</styleUrl>
     <Point>
       <coordinates>-80.363274,36.096966,0.000000</coordinates>
@@ -571,7 +571,7 @@
   <Placemark>
   	<Greenway>Bethabara Trail</Greenway>
     <name>Indiana Ave</name>
-    <description><![CDATA[]]></description>
+    <description>1.5 miles, combining paved and natural sections along Mill Creek and through Historic Bethabara Park, from Reynolda Commons Shopping Center to Old Town Road. A separated .4 mile s</description>
     <styleUrl>#style29</styleUrl>
     <Point>
       <coordinates>-80.293816,36.151459,0.000000</coordinates>
@@ -580,7 +580,7 @@
   <Placemark>
   	<Greenway>Bethabara Trail</Greenway>
     <name>Old Town Rd</name>
-    <description><![CDATA[]]></description>
+    <description>1.5 miles, combining paved and natural sections along Mill Creek and through Historic Bethabara Park, from Reynolda Commons Shopping Center to Old Town Road. A separated .4 mile s</description>
     <styleUrl>#style13</styleUrl>
     <Point>
       <coordinates>-80.292725,36.148930,0.000000</coordinates>
@@ -589,7 +589,7 @@
   <Placemark>
   	<Greenway>Bethabara Trail</Greenway>
     <name>Bethabara Rd</name>
-    <description><![CDATA[]]></description>
+    <description>1.5 miles, combining paved and natural sections along Mill Creek and through Historic Bethabara Park, from Reynolda Commons Shopping Center to Old Town Road. A separated .4 mile s</description>
     <styleUrl>#style14</styleUrl>
     <Point>
       <coordinates>-80.301476,36.156414,0.000000</coordinates>

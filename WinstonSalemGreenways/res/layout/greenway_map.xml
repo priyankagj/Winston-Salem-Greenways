@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent" >
-
- <com.google.android.maps.MapView 
-    android:id="@+id/mapView"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:enabled="true"
-    android:clickable="true"
-    android:apiKey="0K4IE1LP13KWdooCoYf2-5hZcm4OwLOkTCuqTvw"
-    />
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
 
-<LinearLayout
-    android:id="@+id/zoom"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true"
-    android:layout_centerHorizontal="true" />
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        class="com.google.android.gms.maps.SupportMapFragment" />
 
- </RelativeLayout>
+
+    <fragment
+        android:id="@+id/Header"
+        android:name="com.example.greenways.Header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="9" />
+
+</LinearLayout>
